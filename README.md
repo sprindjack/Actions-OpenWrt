@@ -16,6 +16,10 @@ AdGuard Home 更新内核前需给予权限
  
 修改ADH端口为5335 SSR端口为5335 绕过大陆
 
+ADH手动设置：
+
+`blocked_response_ttl: 60`
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
