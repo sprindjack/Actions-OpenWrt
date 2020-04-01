@@ -1,3 +1,18 @@
+## 个人按需定制版本 ##
+
+版本：K2P 32M 512M USB3.0(未添加USB功能) 硬改
+
+功能：
+- 定时重启
+- 文件传输
+- AdGuard Home 广告过滤
+- ShadowSocksR Plus+ (只含 V2Ray)
+- 上网时间控制
+- 网络唤醒
+- UPnP
+- Turbo ACC
+- IPV6 (功能缺失或我没设置正确)
+
 AdGuard Home 更新内核前需给予权限
 
 `cd /usr/share/Ad*`
@@ -8,15 +23,15 @@ AdGuard Home 更新内核前需给予权限
 
 `chmod +x *`
 
-修改前需先杀死pdnsd
+修改前需先杀死 pdnsd
 
  `netstat -ap | grep 5335`
  
  `kill + id`
  
-修改ADH端口为5335 SSR端口为5335 GFW模式
+修改 AdGuard Home 端口为5335, SSR 端口为5335 GFW 模式
 
-ADH手动设置：
+AdGuard Home 手动设置：
 
 `blocked_response_ttl: 60`
 
