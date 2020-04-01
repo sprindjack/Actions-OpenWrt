@@ -1,12 +1,12 @@
 AdGuard Home 更新内核前需给予权限
 
-chmod +x 以下
+cd /usr/share/Ad*
 
-/usr/share/Ad*
+chmod +x *
 
-/etc/init.d/Ad*
+cd /etc/init.d
 
-/etc/bin/Ad*
+chmod +x *
 
 修改ADH端口为5335 SSR端口为5335 绕过大陆
 
