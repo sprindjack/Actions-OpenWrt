@@ -1,3 +1,10 @@
+AdGuard Home 更新内核前需给予权限
+chmod +x 以下
+/usr/share/Ad*
+/etc/init.d/Ad*
+/etc/init.d/Ad*
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
