@@ -1,8 +1,12 @@
 AdGuard Home 更新内核前需给予权限
+
 chmod +x 以下
+
 /usr/share/Ad*
+
 /etc/init.d/Ad*
-/etc/init.d/Ad*
+
+/etc/bin/Ad*
 
 
 # Actions-OpenWrt
