@@ -8,6 +8,7 @@ chmod +x 以下
 
 /etc/bin/Ad*
 
+修改ADH端口为5335 SSR端口为5335 绕过大陆
 
 # Actions-OpenWrt
 
