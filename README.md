@@ -14,7 +14,7 @@ AdGuard Home 更新内核前需给予权限
  
  `kill + id`
  
-修改ADH端口为5335 SSR端口为5335 绕过大陆
+修改ADH端口为5335 SSR端口为5335 GFW模式
 
 ADH手动设置：
 
@@ -39,6 +39,9 @@ https://dev.tencent.com/u/shaoxia1991/p/yhosts/git/raw/master/data/tvbox.txt
 https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt
 https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt
 https://gitee.com/banbendalao/adguard/raw/master/ADgk.txt
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+https://adaway.org/hosts.txt
+https://hosts.nfz.moe/full/hosts
 ```
 
 
