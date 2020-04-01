@@ -20,6 +20,28 @@ ADH手动设置：
 
 `blocked_response_ttl: 60`
 
+DNS:
+```
+tls://dns.rubyfish.cn
+https://dns.rubyfish.cn/dns-query
+https://i.233py.com/dns-query
+https://223.5.5.5/dns-query
+https://223.6.6.6/dns-query
+tls://dns.google
+https://doh.opendns.com/dns-query
+tls://1dot1dot1dot1.cloudflare-dns.com
+```
+过滤器：
+```
+https://gitee.com/halflife/list/raw/master/ad.txt
+https://cdn.jsdelivr.net/gh/vokins/yhosts/hosts
+https://dev.tencent.com/u/shaoxia1991/p/yhosts/git/raw/master/data/tvbox.txt
+https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt
+https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt
+https://gitee.com/banbendalao/adguard/raw/master/ADgk.txt
+```
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
