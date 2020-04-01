@@ -12,8 +12,9 @@
 - UPnP
 - Turbo ACC
 - IPV6 (功能缺失或我没设置正确)
+- 管理页面为192.168.2.1
 
-AdGuard Home 更新内核前需给予权限
+AdGuard Home 更新内核前需给予权限，XShell连接并执行
 
 `cd /usr/share/Ad*`
 
