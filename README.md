@@ -1,13 +1,19 @@
 AdGuard Home 更新内核前需给予权限
 
-cd /usr/share/Ad*
+`cd /usr/share/Ad*`
 
-chmod +x *
+`chmod +x *`
 
-cd /etc/init.d
+`cd /etc/init.d`
 
-chmod +x *
+`chmod +x *`
 
+修改前需先杀死pdnsd
+
+ `netstat -ap | grep 5335`
+ 
+ `kill + id`
+ 
 修改ADH端口为5335 SSR端口为5335 绕过大陆
 
 # Actions-OpenWrt
