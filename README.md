@@ -46,6 +46,13 @@ tls://dns.google
 https://doh.opendns.com/dns-query
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
+个人用
+```
+192.168.1.1
+119.29.29.29
+180.76.76.76
+223.5.5.5
+```
 过滤器：
 ```
 https://gitee.com/halflife/list/raw/master/ad.txt
