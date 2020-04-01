@@ -65,6 +65,7 @@ https://gitee.com/banbendalao/adguard/raw/master/ADgk.txt
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://adaway.org/hosts.txt
 https://hosts.nfz.moe/full/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 ```
 
 
