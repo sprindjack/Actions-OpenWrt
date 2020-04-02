@@ -30,19 +30,21 @@ AdGuard Home 更新内核前需给予权限，XShell 连接并执行
  
  `kill + id`
  
-修改 AdGuard Home 端口为5335, SSR 端口为5335 GFW 模式
+修改 AdGuard Home 端口为5335，使用 “作为dnsmasq的上游服务器”
+
+修改 SSR 端口为5335，使用 “GFW 列表模式”，DNS解析方式选 “本地5335”
 
 AdGuard Home 手动设置：
 
 `blocked_response_ttl: 60`
 
-DNS(个人用):
+DNS (个人用):
 ```
 192.168.1.1
 https://dns.alidns.com/dns-query
 tls://dns.google
 ```
-过滤器：
+过滤器 (个人用)：
 ```
 https://gitee.com/halflife/list/raw/master/ad.txt
 https://cdn.jsdelivr.net/gh/vokins/yhosts/hosts
