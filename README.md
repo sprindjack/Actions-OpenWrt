@@ -36,23 +36,16 @@ AdGuard Home 手动设置：
 
 `blocked_response_ttl: 60`
 
-DNS:
+DNS(个人用):
 ```
-tls://dns.rubyfish.cn
+192.168.1.1
 https://dns.rubyfish.cn/dns-query
 https://i.233py.com/dns-query
 https://223.5.5.5/dns-query
 https://223.6.6.6/dns-query
 tls://dns.google
 https://doh.opendns.com/dns-query
-tls://1dot1dot1dot1.cloudflare-dns.com
-```
-个人用
-```
-192.168.1.1
-119.29.29.29
-180.76.76.76
-223.5.5.5
+https://1.1.1.1/dns-query
 ```
 过滤器：
 ```
