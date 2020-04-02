@@ -39,13 +39,8 @@ AdGuard Home 手动设置：
 DNS(个人用):
 ```
 192.168.1.1
-https://dns.rubyfish.cn/dns-query
-https://i.233py.com/dns-query
-https://223.5.5.5/dns-query
-https://223.6.6.6/dns-query
+https://dns.alidns.com/dns-query
 tls://dns.google
-https://doh.opendns.com/dns-query
-https://1.1.1.1/dns-query
 ```
 过滤器：
 ```
