@@ -4,60 +4,12 @@
 
 功能：
 - 定时重启
-- 文件传输
 - AdGuard Home 广告过滤
-- ShadowSocksR Plus+ (只含 V2Ray)
-- 上网时间控制
-- 网络唤醒
+- ShadowSocksR Plus+ (V2Ray正常)
 - UPnP
 - Turbo ACC
 - IPV6 (功能缺失或我没设置正确)
 - 管理页面为192.168.2.1
-
-AdGuard Home 更新内核前需给予权限，XShell 连接并执行
-
-`cd /usr/share/Ad*`
-
-`chmod +x *`
-
-`cd /etc/init.d`
-
-`chmod +x *`
-
-修改前需先杀死 pdnsd
-
- `netstat -ap | grep 5335`
- 
- `kill + id`
- 
-修改 AdGuard Home 端口为5335，使用 “作为dnsmasq的上游服务器”
-
-修改 SSR 端口为5335，使用 “GFW 列表模式”，DNS解析方式选 “本地5335”
-
-AdGuard Home 手动设置：
-
-`blocked_response_ttl: 60`
-
-DNS (个人用):
-```
-192.168.1.1
-https://dns.alidns.com/dns-query
-tls://dns.google
-```
-过滤器 (个人用)：
-```
-https://gitee.com/halflife/list/raw/master/ad.txt
-https://cdn.jsdelivr.net/gh/vokins/yhosts/hosts
-https://dev.tencent.com/u/shaoxia1991/p/yhosts/git/raw/master/data/tvbox.txt
-https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt
-https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt
-https://gitee.com/banbendalao/adguard/raw/master/ADgk.txt
-https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-https://adaway.org/hosts.txt
-https://hosts.nfz.moe/full/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-```
-
 
 # Actions-OpenWrt
 
