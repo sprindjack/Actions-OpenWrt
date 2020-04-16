@@ -1,16 +1,5 @@
 ## 个人按需定制版本 ##
 
-版本：K2P 32M 512M USB3.0 硬改 (未加入 USB 相关功能)
-
-功能：
-- 定时重启
-- AdGuard Home 广告过滤
-- ShadowSocksR Plus+ (V2Ray正常)
-- UPnP
-- Turbo ACC
-- IPV6 (功能缺失或我没设置正确)
-- 管理页面为192.168.2.1
-
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
