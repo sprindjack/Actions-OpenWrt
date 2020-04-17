@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 git clone https://github.com/fw876/helloworld temp123/helloworld/
-mv temp/helloworld/luci-app-ssr-plus package/lean/luci-app-ssr-plus
+mv temp123/helloworld/luci-app-ssr-plus package/lean/luci-app-ssr-plus
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 # Change Flash to 32M
