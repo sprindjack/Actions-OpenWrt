@@ -5,6 +5,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
+# Fix SSRP disappeared
 git clone https://github.com/fw876/helloworld temp123/helloworld/
 mv temp123/helloworld/luci-app-ssr-plus package/lean/luci-app-ssr-plus
 # Modify default IP
