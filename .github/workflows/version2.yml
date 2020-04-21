@@ -9,6 +9,7 @@ on:
       - master
     paths:
       - 'version2.config'
+      - 'diy.sh'
   schedule:
       - cron: 0 8 * * 5
   watch:
