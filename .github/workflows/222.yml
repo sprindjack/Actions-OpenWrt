@@ -11,8 +11,8 @@ on:
       - '.config'
       - 'diy-part1.sh'
       - 'diy-part2.sh'
-  schedule:
-    - cron: 0 8 * * 5
+#  schedule:
+ #   - cron: 0 8 * * 5
   watch:
     types: started
 
