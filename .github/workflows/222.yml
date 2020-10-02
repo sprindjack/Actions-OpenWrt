@@ -8,8 +8,9 @@ on:
     branches:
       - master
     paths:
-      - 'version2.config'
-      - 'diy.sh'
+      - '.config'
+      - 'diy-part1.sh'
+      - 'diy-part2.sh'
   schedule:
     - cron: 0 8 * * 5
   watch:
@@ -19,9 +20,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: version2.config
-  DIY_P1_SH: diy.sh
-  #DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: .config
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
@@ -75,6 +76,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
+        
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@main
       if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
