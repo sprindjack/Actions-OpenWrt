@@ -1,8 +1,12 @@
 #!/bin/bash
 
-# Fix SSRP disappeared
+# Add SSRP
 git clone https://github.com/fw876/helloworld temp123/helloworld/
 mv temp123/helloworld/luci-app-ssr-plus package/lean/luci-app-ssr-plus
+
+# Add OpenClash
+git clone https://github.com/vernesong/OpenClash temp123/openclash/
+mv temp123/openclash/luci-app-openclash package/lean/luci-app-openclash
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
