@@ -1,3 +1,5 @@
+## 弃用，因无法解决 "Wireless is disabled or not associated" ##
+
 ## 个人按需定制版本 ##
 
 # Actions-OpenWrt
